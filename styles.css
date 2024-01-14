@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#cart-summary {
+  float: right;
+  margin-top: 10px;
+}
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+#loader, #error-message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#cart {
+  float: right;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#checkout {
+  float: right;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.hidden {
+  display: none;
+}
+.App {
+  
+ height: 54px;
+ background-color: goldenrod;
+ justify-items: center;
+ padding-top: 10px;
+  
+}
+.App ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px;
+  margin-top:  10px;
+}
+.product-list {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 2px solid #333;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.product-list div{
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  border: 2px solid #333;
+  padding: 30px;
+  
+  
+}
+
+.product-list img {
+  height: 20%;
+  width: 20%;
+}
